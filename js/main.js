@@ -1,30 +1,34 @@
-
-// VARIABLES [ VAR LET CONST ]
-
-// let varibalName = "dsfadsf";
-//     varibalName = "66666";
-
-// variable [VARIABLE small , skdfj33]
-
-// DONT USE [const , 33 ]
+// Mathematic Operators
+// [ + , * , - , / , % ]
 
 
-// const ID = 4;
-//  ID = 6
-// document.write(ID);
+// let num1 = 5;
+// let num2 = 5;
 
-// DATA TYPES [string ,  number , bolean]
+// console.write(num1 + num2)
 
-let firstName = "this is 234"; //String
+// [ = assign , == Camparison, === , Camp+DataTypes]
 
-let numb1 = "35"; //NUMBER
-let num2 = 5;
-
-let Login = true / false; //Bolean
+// > , < , <= , >= , && and , || or , 
 
 
+let student = 80;
 
-
-
-document.write(numb1 + num2);
-
+if(student >= 50 && student < 60){
+    document.write("D GRADE");
+}
+else if(student >= 60 && student < 70){
+    document.write("C GRADE");
+}
+else if(student >= 70 && student < 80){
+    document.write("B GRADE");
+}
+else if(student >= 80 && student < 90){
+    document.write("A GRADE");
+}
+else if(student >= 90 && student <= 100){
+    document.write("A+ GRADE");
+}
+else{
+    document.write("FAILED....");
+}
