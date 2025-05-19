@@ -1,8 +1,8 @@
 
 
-let a = 150;
+// let a = 150;
 
-let b;
+// let b;
 
 // (a == 50) ? b = "true" : b = "false";
 
@@ -32,6 +32,10 @@ let b;
 
 
 // javascript events
-function myAlert(){
-    alert("HHHHHHHHH");
-}
+// function myAlert(){
+//     alert("HHHHHHHHH");
+// }
+
+
+
+
