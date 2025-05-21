@@ -17,22 +17,43 @@
 // }
 
 
-let btn = document.querySelector("button");
-let PassBox = document.querySelector("input");
+// let btn = document.querySelector("button");
+// let PassBox = document.querySelector("input");
 
 
-btn.addEventListener('click' , function(){
-    // PassBox.type= "text"
+// btn.addEventListener('click' , function(){
+//     // PassBox.type= "text"
 
-    if(PassBox.type == "password" ){
-        PassBox.type = "text";
-        btn.innerHTML = "Hide"
-    }else{
-        PassBox.type = "password";
-        btn.innerHTML = "Show"
-    }
+//     if(PassBox.type == "password" ){
+//         PassBox.type = "text";
+//         btn.innerHTML = "Hide"
+//     }else{
+//         PassBox.type = "password";
+//         btn.innerHTML = "Show"
+//     }
 
-})
+// })
+
+
+// let Input = document.querySelector('input');
+// let Btn   = document.querySelector('button')
+
+
+// Btn.addEventListener('click' , () => {
+
+//     if(Input.type == "password"){
+//         Input.type = 'text';
+//         Btn.innerHTML = "Hide";
+//     }else{
+//         Input.type = 'password';
+//         Btn.innerHTML = "Show";
+//     }
+
+// })
+
+// Btn.addEventListener('click' , function() {
+
+// })
 
 
 
