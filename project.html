@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .formTop input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+span.closeBtn {
+    background: #000;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    width: 30px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.formTop {
+    background: orange;
+    display: inline-block;
+    height: 240px;
+    width: 250px;
+    padding: 20px;
+    position: relative;
+}
+    input.firstInput {
+    margin-top: 50px;
+}
+.parent {
+    position: absolute;
+    right: -350px;
+    transition: .8s ease-in-out;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.show{
+    right: 0 !important;
+}
+
+.HideClass{
+    right: -350px !important;
+}
+
+    </style>
+
+</head>
+<body>
+    
+<button class="btnShow">Show</button>
+
+<div class="parent">
+    <div class="formTop">
+    <span class="closeBtn"> &times; </span>
+    <input class="firstInput" type="text" placeholder="Enter your name">
+    <br>
+    <input type="text" placeholder="Enter your name">
+    <br>
+    <input type="text" placeholder="Enter your name">
+    <br>
+    <input type="text" placeholder="Enter your name">
+    <br>
+    <button>Submit</button>
+</div>
+</div>
+
+ <script src="./DOM/project.js"></script>   
+</body>
+</html>
